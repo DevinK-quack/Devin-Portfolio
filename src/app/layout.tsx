@@ -7,7 +7,7 @@ const outfit = Outfit({ subsets: ["latin"], variable: "--font-outfit" });
 
 export const metadata: Metadata = {
   title: "Devin Kulasekere | Software Engineer",
-  description: "Portfolio of Devin Kulasekere - Higher Diploma in Computing & Software Engineering (Cardiff Met)",
+  description: "Portfolio of Devin Kulasekere - Software Engineering Graduate",
 };
 
 export default function RootLayout({
