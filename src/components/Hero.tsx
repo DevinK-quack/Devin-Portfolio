@@ -13,7 +13,7 @@ export default function Hero() {
         <motion.div initial={{ opacity: 0, y: 25 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: .7 }}>
           <div className="mb-8 flex items-center gap-3 text-xs font-semibold uppercase tracking-[.2em] text-[#49a6ff]"><Code2 size={15} />Fullstack Developer / Data analyst</div>
           <h1 className="max-w-4xl font-[family-name:var(--font-outfit)] text-5xl font-extrabold leading-[.95] tracking-tight md:text-8xl">Digital products with <span className="text-[#49a6ff]">purpose.</span></h1>
-          <p className="mt-8 max-w-xl text-base leading-relaxed text-[#c5d6e8] md:text-lg">I&apos;m Devin Kulasekere, a software engineering graduate crafting thoughtful full-stack systems, mobile experiences, and the infrastructure behind them.</p>
+          <p className="mt-8 max-w-xl text-base leading-relaxed text-[#c5d6e8] md:text-lg">"I&apos;m Devin Kulasekere, a software engineering graduate passionate about reliable backends and data integrity. Whether designing schemas, testing systems end-to-end or analyzing data patterns, I build clean and secure solutions designed to perform."</p>
           <div className="mt-10 flex flex-wrap gap-4">
             <a href="#projects" className="action-button flex items-center gap-2 rounded-full bg-[#49a6ff] px-6 py-3.5 text-sm font-bold text-[#10243e]">Explore my work <ArrowUpRight size={17} /></a>
             <a href="#contact" className="action-button rounded-full border border-[#c5d6e8]/40 px-6 py-3.5 text-sm font-semibold text-[#f4f8fc] hover:bg-white/10">Start a conversation</a>
@@ -31,7 +31,7 @@ export default function Hero() {
             />
           </div>
           <div className="mb-8 flex items-center gap-2 text-sm text-[#c5d6e8]"><MapPin size={16} className="text-[#49a6ff]" /> Colombo, Sri Lanka</div>
-          <div className="grid grid-cols-2 gap-8 border-t border-[#c5d6e8]/25 pt-7"><div><strong className="block font-[family-name:var(--font-outfit)] text-4xl text-[#f4f8fc]">06</strong><span className="text-xs text-[#c5d6e8]">Selected systems</span></div><div><strong className="block font-[family-name:var(--font-outfit)] text-4xl text-[#f4f8fc]">3+</strong><span className="text-xs text-[#c5d6e8]">Core disciplines</span></div></div>
+          <div className="grid grid-cols-2 gap-8 border-t border-[#c5d6e8]/25 pt-7"><div><strong className="block font-[family-name:var(--font-outfit)] text-4xl text-[#f4f8fc]">07</strong><span className="text-xs text-[#c5d6e8]">Selected systems</span></div><div><strong className="block font-[family-name:var(--font-outfit)] text-4xl text-[#f4f8fc]">3+</strong><span className="text-xs text-[#c5d6e8]">Core disciplines</span></div></div>
         </motion.div>
       </div>
       <a href="#about" className="action-link mx-auto mt-16 flex w-fit items-center gap-2 text-xs uppercase tracking-[.18em] text-[#c5d6e8]"><ArrowDown size={15} /> Scroll to discover</a>

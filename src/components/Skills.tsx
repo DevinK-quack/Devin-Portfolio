@@ -27,8 +27,19 @@ const skillCategories = [
     title: "Databases & Storage",
     skills: [
       ["SQL", "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-original.svg"],
+      ["PostgreSQL", "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg"],
       ["SQLite", "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg"],
       ["MySQL", "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg"],
+      ["Supabase", "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/supabase/supabase-original.svg"],
+    ],
+  },
+  {
+    title: "Data & BI",
+    skills: [
+      ["Power BI", "https://raw.githubusercontent.com/microsoft/PowerBI-Icons/main/SVG/Power-BI.svg"],
+      ["Microsoft Excel", "https://upload.wikimedia.org/wikipedia/commons/7/73/Microsoft_Excel_2013-2019_logo.svg"],
+      ["Google Sheets", "https://cdn.simpleicons.org/googlesheets"],
+      ["Data Analysis", "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/r/r-original.svg"],
     ],
   },
 ];
@@ -44,7 +55,7 @@ export default function Skills() {
     </section>
     <section id="skills" className="border-y border-[#365578] bg-[#10243e] px-6 py-24 text-[#f4f8fc]">
       <div className="mx-auto max-w-6xl"><div className="mb-12"><span className="text-[11px] font-bold uppercase tracking-[.2em] text-[#49a6ff]">02 / Capabilities</span><h2 className="mt-3 font-[family-name:var(--font-outfit)] text-4xl font-bold md:text-5xl">Technical <span className="text-[#49a6ff]">toolkit.</span></h2><p className="mt-4 max-w-xl text-sm leading-relaxed text-[#c5d6e8]">A focused set of languages, frameworks, and database tools I use to turn ideas into dependable products.</p></div>
-      <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
+      <div className="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-4">
         {skillCategories.map((group, idx) => (
           <div
             key={idx}
@@ -60,7 +71,7 @@ export default function Skills() {
                   title={skill}
                   className="group/logo relative flex aspect-square items-center justify-center rounded-xl border border-[#496985] bg-[#f4f8fc] p-4 transition-all hover:-translate-y-1 hover:border-[#49a6ff] hover:shadow-[0_10px_20px_rgba(0,0,0,0.2)]"
                 >
-                  <Image src={logo} alt={`${skill} logo`} width={44} height={44} className="h-10 w-10 object-contain transition-transform group-hover/logo:scale-110" />
+                  <Image src={logo} alt={`${skill} logo`} width={44} height={44} unoptimized className="h-10 w-10 object-contain transition-transform group-hover/logo:scale-110" />
                   <span className="pointer-events-none absolute -top-9 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-md bg-[#10243e] px-2 py-1 text-[10px] font-medium text-white opacity-0 shadow-lg transition-opacity group-hover/logo:opacity-100">
                     {skill}
                   </span>

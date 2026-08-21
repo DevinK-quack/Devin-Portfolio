@@ -26,7 +26,7 @@ export default function Education() {
                 Higher Diploma in Computing and Software Engineering
               </h3>
               <p className="mt-2 text-sm text-[#5c7189]">
-                Cardiff Metropolitan University
+                Cardiff Metropolitan University - ICBT Campus, Sri Lanka
               </p>
             </div>
           </div>

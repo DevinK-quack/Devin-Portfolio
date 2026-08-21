@@ -24,21 +24,21 @@ const projectList = [
   },
   {
     title: "KMC Event Management",
-    category: "Enterprise System",
+    category: "Web Application",
     description: "Event scheduling, venue coordination, and user tracking platform built with structured role controls.",
     stack: ["ASP.NET Core", "SQL", "C#"],
   },
   {
     title: "Furniture Ordering System",
-    category: "E-Commerce",
+    category: "Inventory System",
     description: "Catalog display, custom quote requests, and order tracking system for bespoke furniture orders.",
     stack: ["C++","SQLite"],
   },
   {
-    title: "Bookshop & Library Systems",
-    category: "Inventory Systems",
-    description: "Dual inventory systems for tracking stock turnover, book borrowings, returns, and catalog classification.",
-    stack: ["Java","MySQL"],
+    title: "Telco Customer Data Analysis",
+    category: "Data Analysis",
+    description: "R-based telecommunications analysis covering rigorous data cleaning, feature engineering, statistical assumption testing, and visual exploration of customer behavior.",
+    stack: ["R"],
   },
 ];
 
