@@ -1,4 +1,4 @@
-import { GraduationCap } from "lucide-react";
+import Image from "next/image";
 
 export default function Education() {
   return (
@@ -15,8 +15,15 @@ export default function Education() {
 
         <div className="group flex flex-col gap-6 border border-[#d5e2ef] bg-[#f4f8fc] p-6 transition-all duration-200 hover:-translate-y-1 hover:border-[#49a6ff] hover:shadow-[0_16px_30px_rgba(16,36,62,0.1)] sm:flex-row sm:items-center sm:justify-between sm:p-8">
           <div className="flex items-start gap-4">
-            <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl border border-[#d5e2ef] bg-white text-[#155eef] transition-colors group-hover:border-[#49a6ff]">
-              <GraduationCap size={24} />
+            <div className="flex h-20 w-36 shrink-0 items-center justify-center rounded-xl border border-[#d5e2ef] bg-white p-3 transition-colors group-hover:border-[#49a6ff]">
+              <Image
+                src="https://www.cardiffmet.ac.uk/media/cardiff-met/site-assets/images/cardiff-logo-lg.svg"
+                alt="Cardiff Metropolitan University logo"
+                width={120}
+                height={56}
+                unoptimized
+                className="h-auto max-h-14 w-full object-contain"
+              />
             </div>
             <div>
               <p className="mb-2 text-xs font-bold uppercase tracking-[.16em] text-[#155eef]">

@@ -23,6 +23,11 @@ const nextConfig: NextConfig = {
         hostname: "upload.wikimedia.org",
         pathname: "/wikipedia/commons/**",
       },
+      {
+        protocol: "https",
+        hostname: "www.cardiffmet.ac.uk",
+        pathname: "/media/cardiff-met/site-assets/images/**",
+      },
     ],
   },
 };
